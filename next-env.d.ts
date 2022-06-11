@@ -1,6 +1,3 @@
-declare module "*.scss";
-declare module "*.css";
-
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 
