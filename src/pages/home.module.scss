@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .container {
   max-width: 1120px;
   margin: 0 auto;
@@ -7,10 +9,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
 }
 
 .hero {
   max-width: 600px;
+
+  @media (max-width: $mobile) {
+    margin-bottom: 3rem;
+  }
 
   > span {
     font-size: 1.5rem;
@@ -41,5 +51,9 @@
 
   button {
     margin-top: 2.5rem;
+
+    @media (max-width: $mobile) {
+      margin: 2.5rem auto 0;
+    }
   }
 }

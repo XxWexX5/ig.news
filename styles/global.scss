@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -16,15 +18,18 @@
   --cyan-500: #61dafb;
 
   --yellow-500: #eba417;
+
+  --desktop: 1080px;
+  --mobile: 728px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: $desktop) {
   html {
     font-size: 93.75%;
   }
 }
 
-@media (max-width: 728px) {
+@media (max-width: $mobile) {
   html {
     font-size: 87.5%;
   }
