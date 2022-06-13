@@ -14,15 +14,26 @@
   display: flex;
   align-items: center;
 
+  > img {
+    width: 100%;
+    max-width: 7rem;
+    height: auto;
+
+    @media screen and (max-width: $mobile) {
+      max-width: 4.3rem;
+    }
+  }
+
   nav {
     margin-left: 5rem;
     height: 100%;
 
     @media screen and (max-width: $mobile) {
-      margin-left: 2rem;
+      margin-left: 1.25rem;
     }
 
     a {
+      font-size: 1rem;
       display: inline-block;
       position: relative;
       padding: 0 0.5rem;
@@ -32,6 +43,10 @@
 
       transition: color 0.2s;
 
+      @media screen and (max-width: $mobile) {
+        font-size: 0.85rem;
+      }
+
       &:hover {
         color: var(--white);
       }
@@ -40,7 +55,7 @@
         margin-left: 1.65rem;
 
         @media screen and (max-width: $mobile) {
-          margin-left: 0.65rem;
+          margin-left: 0.1rem;
         }
       }
 
@@ -65,10 +80,12 @@
   }
 
   > button {
+    white-space: nowrap;
     margin-left: auto;
 
     @media screen and (max-width: $mobile) {
-      padding: 0 0.85rem;
+      padding: 0 0.65rem;
+      font-size: 0.8rem;
     }
   }
 }
