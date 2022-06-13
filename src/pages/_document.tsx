@@ -14,6 +14,9 @@ export default class MyDocument extends Document {
             property="og:image"
             content="https://ig-news-gules.vercel.app/images/girl.jpg"
           />
+          <meta property="og:image:width" content={"640"} />
+          <meta property="og:image:height" content={"640"} />
+          <meta property="og:image:type" content={"image/jpeg"} />
           <meta name="description" content="New about the React World." />
           <meta name="keywords" content="React, JavaScript" />
           <meta name="author" content="Wevison Ramalho Silva" />
