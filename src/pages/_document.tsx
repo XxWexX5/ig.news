@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://ig-news-gules.vercel.app/" />
           <meta
             property="og:image"
-            content="https://ig-news-gules.vercel.app/images/avatar.svg"
+            content="https://ig-news-gules.vercel.app/images/girl.jpg"
           />
           <meta name="description" content="New about the React World." />
           <meta name="keywords" content="React, JavaScript" />
