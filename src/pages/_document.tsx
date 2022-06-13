@@ -7,6 +7,17 @@ export default class MyDocument extends Document {
         <Head>
           <title>ig.news</title>
 
+          <meta property="og:title" content="Ig.news" />
+          <meta property="og:type" content="news" />
+          <meta property="og:url" content="https://ig-news-gules.vercel.app/" />
+          <meta
+            property="og:image"
+            content="https://ig-news-gules.vercel.app/images/avatar.svg"
+          />
+          <meta name="description" content="New about the React World." />
+          <meta name="keywords" content="React, JavaScript" />
+          <meta name="author" content="Wevison Ramalho Silva" />
+
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
